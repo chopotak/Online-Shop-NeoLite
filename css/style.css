@@ -330,8 +330,9 @@
   color: #acacac;
 }
 .donate__cards {
-  overflow-x: hidden;
+  overflow: hidden;
   padding-right: 20px;
+  padding-bottom: 20px;
   margin-left: 0px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -361,6 +362,7 @@
           transform: translateX(-50%);
 }
 .donate__card:hover {
+  position: relative;
   -webkit-transform: scale(1.02);
           transform: scale(1.02);
   cursor: pointer;
