@@ -354,8 +354,8 @@
   transition: 0.5s;
 }
 .donate__card img {
-  height: 80%;
-  width: 80%;
+  height: 100%;
+  width: 100%;
   margin-top: 20px;
   margin-left: 50%;
   -webkit-transform: translateX(-50%);
